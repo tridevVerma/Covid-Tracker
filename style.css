@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+body{
+    padding: 40px 20px;
+    background-color: rgb(109, 226, 255);
+    color : white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+img{
+    width: 200px;
+    height: auto;
+    
+}
+
+.timeCountry{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-items: center;
+}
+
+#country{
+    outline: none;
+    width: 70%;
+    border:none;
+    text-align: center;
+    color:rgb(109, 226, 255);
+    font-size: 1.2rem;
+}
+
+#menu{
+    width: 60%;
+    display: flex;
+}
+
+main{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    padding: 1rem 0px;
+    align-content: center;
+    margin-top: 10vh;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+#submit{
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin: 0px;
+    background-color: rgb(0, 204, 255);
+}
+
+#cases{
+    color : yellow;
+}
+
+#deaths{
+    color :red;
+}
+
+#recovered{
+    color : green;
+}
+
+@media only screen and (max-width: 1220px) {
+    #country{
+        font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    #country{
+        font-size: 1rem;
+    }
+
+    img{
+        width: 150px;
+        height: auto;
+        
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+  }

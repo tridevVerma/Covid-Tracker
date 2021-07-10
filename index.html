@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Covid Tracker</title>
+</head>
+<body>
+    <nav>
+        <img src="./logo.png" alt="logo not found">
+        <h2>covid-19 coronavirus pandemic</h2>
+    </nav>
+
+    <div class="timeCountry">
+        <p>Last updated: <span id="time">May 06, 2021, 3:07 GMT</span></p>
+            <div id="menu">
+                <input list="selector" name="browser" id="country">
+                <datalist id="selector">
+                    <option value="Andaman and Nicobar Islands"></option>
+                </datalist>
+                <input type="submit" id="submit">
+            </div>
+            
+    </div>
+    
+
+    <main>
+        <h1>coronavirus cases : <span id="cases"></span></h1>
+        <h3>deaths : <span id="deaths"></span></h3>
+        <h3>recovered : <span  id="recovered"></span></h3>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
